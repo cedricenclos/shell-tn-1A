@@ -1,6 +1,6 @@
 #! /bin/bash
 
-if [ $# -le 1 ] ; then
+if [[ $# -le 1 ]] ; then
 	echo "Usage : enlever_args <nom> <nom1> ... <nomN>"
 	exit 1
 fi
